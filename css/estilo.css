@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.secao-topo {
+    border-bottom: 1px solid #0a0909;
+}
+
+.secao-topo p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+    color: #0808088f;
+    
+
+
+}
+
+.secao-largura-limitada {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+h1,h2 {
+    color: #000;
+    margin: 0;
+    font-family: 'Jura',sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Jura', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secao-background-capa {
+    min-height: 500px;
+    background-image: url('/img/capa.jpg');
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    padding: 50px 20px;
+    
+    font-family: 'Jura', sans-serif;
+}
+
+.secao-conteudo {
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #d92121;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.secao-background-divisao {
+    font-size: 36px;
+    font-family:'Jura', sans-serif;
+    background-color: #6c0000;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jura', sans-serif;
+    color: #000;
+}
+
+.grupo-campo input, .grupo-campo select {
+    margin: 12px 0;
+    height: 25px;
+}
+
+.secao-conteudo fieldset {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-conteudo button {
+    width: 100%;
+    height: 32px;
+    background: #d92121;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    bottom: 0%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    font-family: 'Jura', sans-serif;
+}
+
+@media(max-width: 815px)
+{
+    .img-conteudo {
+        width: 100%
+    }
+}
