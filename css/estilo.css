@@ -45,9 +45,9 @@ h3 {
 }
 
 .secao-background-conteudo {
-    text-align: right;
+    text-align: center;
     padding: 50px 20px;
-    
+    color: rgba(248, 14, 14, 0.801);
     font-family: 'Jura', sans-serif;
 }
 
